@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
+body {
+    background-color: black;
+}
 
 
 /*Header styling */
@@ -37,7 +39,7 @@ header span a {
 /* Sections settings */
 
 main section {
-    height:40rem;
+    height:55rem;
     
 }
 
@@ -50,7 +52,7 @@ main section {
     display: grid;
     grid-template-columns: repeat(10 , 1fr);
     grid-template-rows: repeat(10,1fr);
-    background-color: rgb(73, 73, 73);
+    
     width: 100%;
     right: 0;
     left: 0;
@@ -101,13 +103,13 @@ main section {
     text-decoration: underline;
 
 }
-
+/* Div breakers modifying for transition.AKA:The images next to each other are awful */
 .breaker {
     height: 8rem;
     position: relative;
-    z-index: 22;
-    background-color: black;
-    top: 3rem;
+    z-index: 1;
+    
+    top: 2rem;
 }
 
 /* The skillset section */
@@ -119,7 +121,7 @@ main section {
     flex-flow: column;
     justify-content: center;
     align-items:center;
-    background-color: black;
+    
     color: white;
     background-image: url('./../images/skillset-background-image.jpg');
     background-size:cover;
@@ -135,4 +137,37 @@ main section {
     font-size: 2rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
+}
+
+/*Some of my work */
+
+#work { 
+    color: white;
+    background-color: rgba(128, 128, 128, 0.664);
+}
+
+
+#work h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#work ul {
+    font-size: 2rem;
+}
+#work li {
+    margin: 3rem 0rem 3rem 8rem
+}
+#work img {
+    width: 60%;
+    height: 35rem;
+}
+#work a {
+    color:white;
+}
+
+/*Popups of work*/
+
+#popupone,#popuptwo {
+    display:none;
 }
