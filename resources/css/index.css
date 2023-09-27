@@ -33,6 +33,7 @@ header span a {
 #popupbar {
     padding-right: 2rem;
     font-size: 3rem;
+    
 }
 
 
@@ -144,22 +145,25 @@ main section {
 #work { 
     color: white;
     background-color: rgba(128, 128, 128, 0.664);
+    height: auto;
+    min-height: 50rem;
 }
 
 
 #work h2 {
     font-size: 4rem;
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 #work ul {
     font-size: 2rem;
 }
 #work li {
-    margin: 3rem 0rem 3rem 8rem
+    margin: 3rem 0rem 6rem 8rem
 }
 #work img {
-    width: 60%;
+    width: 40rem;
     height: 35rem;
 }
 #work a {
@@ -170,4 +174,9 @@ main section {
 
 #popupone,#popuptwo {
     display:none;
+}
+
+
+footer {
+    color: white;
 }
