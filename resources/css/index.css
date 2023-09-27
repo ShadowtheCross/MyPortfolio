@@ -38,14 +38,15 @@ header span a {
 
 main section {
     height:40rem;
+    
 }
 
 /*intro */
 
 #intro {
-    
     position: relative;
     top: 3rem;
+    
     display: grid;
     grid-template-columns: repeat(10 , 1fr);
     grid-template-rows: repeat(10,1fr);
@@ -53,7 +54,7 @@ main section {
     width: 100%;
     right: 0;
     left: 0;
-    background-image: url('./../images/test2.jpg');
+    background-image: url('./../images/intro-background-image.jpeg.jpg');
     background-size:cover;
 }
 
@@ -101,7 +102,37 @@ main section {
 
 }
 
+.breaker {
+    height: 8rem;
+    position: relative;
+    z-index: 22;
+    background-color: black;
+    top: 3rem;
+}
 
 /* The skillset section */
 
+#skillset {
+    position: relative;
+    top:2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    color: white;
+    background-image: url('./../images/skillset-background-image.jpg');
+    background-size:cover;
+}
 
+#skillset h2 {
+    position: relative;
+    bottom:6rem ;
+    font-size: 4rem;
+}
+
+#skillset ul {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
