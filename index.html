@@ -6,11 +6,32 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./resources/css/index.css">
     <script src="./resources/Javascript/popups.js" defer></script>
+    <script src="./resources/Javascript/popupmenu.js" defer></script>
 </head>
 <body>
     <header>
-        <span><a href="./index.html">STAVROS RODOPOULOS</a></span>
-        <span id="popupbar">=</span>
+        <div>
+            <span><a href="./index.html">STAVROS RODOPOULOS</a></span>
+            
+            <img src="./resources/images/home-botton-image.png" alt="Button to examine more sites" id="popupbar" width="50px">
+        </div>
+        <br>
+        <div>
+            <table id="popuptable">
+                <tbody>
+                <tr>
+                    <td>Home</td>
+                </tr>
+                <tr>
+                    <td>Contact me</td>
+                </tr>
+                            
+                </tbody>
+            </table>
+
+        </div>
+        
+        
         
         
         
@@ -43,7 +64,7 @@
         <section id="work">
             <h2>Some of my work</h2>
             <ul>
-                <li><a href="#work"  id="hack">Hacker Club</a></li>
+                <li id="hack">Hacker Club</li>
                 <div id="popupone">
                     <p>A fake website in which hackers offer services and it consists of a club of hackers.Those willing to join are welcome to do so.</p>
                     <img src="./resources/images/Hacker-club-image.png" alt="Image of the website">
