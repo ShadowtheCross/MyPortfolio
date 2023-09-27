@@ -1,0 +1,35 @@
+/*Header styling */
+
+header {
+    height: 4rem;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span a {
+    color:white;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+/* = Sign */
+#popupbar {
+    padding-right: 2rem;
+    font-size: 3rem;
+}
+
+
+/* Sections settings */
+
+main section {
+    height:40rem;
+}
